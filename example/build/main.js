@@ -120633,7 +120633,7 @@
     	var mode = 0;
 
     	var container = document.createElement( 'div' );
-    	container.style.cssText = 'position:fixed;top:0;left:0;cursor:pointer;opacity:0.9;z-index:10000';
+    	container.style.cssText = 'position:fixed;top:0;left:0;cursor:pointer;opacity:0.5;z-index:10000';
     	container.addEventListener( 'click', function ( event ) {
 
     		event.preventDefault();
@@ -120675,7 +120675,7 @@
 
     	}
 
-    	showPanel( 0 );
+    	 showPanel( 0 );
 
     	return {
 
@@ -120800,7 +120800,7 @@
     viewer.grid.setGrid();
     // viewer.shadowDropper.darkness = 1.5;
 
-    // Set up stats
+    // // Set up stats
     const stats = new Stats();
     stats.showPanel(2);
     document.body.append(stats.dom);
@@ -120921,16 +120921,16 @@
       inputElement.click();
     });
 
-    const sectionButton = createSideMenuButton('./resources/section-plane-down.svg');
-    sectionButton.addEventListener('click', () => {
-      sectionButton.blur();
-      viewer.clipper.toggle();
-    });
+    // const sectionButton = createSideMenuButton('./resources/section-plane-down.svg');
+    // sectionButton.addEventListener('click', () => {
+    //   sectionButton.blur();
+    //   viewer.clipper.toggle();
+    // });
 
-    const dropBoxButton = createSideMenuButton('./resources/dropbox-icon.svg');
-    dropBoxButton.addEventListener('click', () => {
-      dropBoxButton.blur();
-      viewer.dropbox.loadDropboxIfc();
-    });
+    // const dropBoxButton = createSideMenuButton('./resources/dropbox-icon.svg');
+    // dropBoxButton.addEventListener('click', () => {
+    //   dropBoxButton.blur();
+    //   viewer.dropbox.loadDropboxIfc();
+    // });
 
 }());

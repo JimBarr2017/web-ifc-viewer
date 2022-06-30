@@ -140,14 +140,14 @@ loadButton.addEventListener('click', () => {
   inputElement.click();
 });
 
-const sectionButton = createSideMenuButton('./resources/section-plane-down.svg');
-sectionButton.addEventListener('click', () => {
-  sectionButton.blur();
-  viewer.clipper.toggle();
-});
+// const sectionButton = createSideMenuButton('./resources/section-plane-down.svg');
+// sectionButton.addEventListener('click', () => {
+//   sectionButton.blur();
+//   viewer.clipper.toggle();
+// });
 
-const dropBoxButton = createSideMenuButton('./resources/dropbox-icon.svg');
-dropBoxButton.addEventListener('click', () => {
-  dropBoxButton.blur();
-  viewer.dropbox.loadDropboxIfc();
-});
+// const dropBoxButton = createSideMenuButton('./resources/dropbox-icon.svg');
+// dropBoxButton.addEventListener('click', () => {
+//   dropBoxButton.blur();
+//   viewer.dropbox.loadDropboxIfc();
+// });

@@ -42,14 +42,14 @@ html, body {
 }
 
 .basic-button:hover {
-    background-color: #2a2d33;
+    background-color: #616877;
 }
 
 .side-menu {
     z-index: 1;
     position: fixed;
     background-color: #36393F;
-    height: 100vh;
+    height: 5vh;
 }
 
 .side-sub-menu {
@@ -101,6 +101,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 3px solid black;
 }
 
 .loading-progress {
