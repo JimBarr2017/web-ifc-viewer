@@ -120864,7 +120864,7 @@
         [IFCOPENINGELEMENT]: false
       });
 
-      model = await viewer.IFC.loadIfc(event.target.files[0], false);
+      model = await viewer.IFC.loadIfc(event.target.files[0], true);
       // model.material.forEach(mat => mat.side = 2);
 
       if(first) first = false;
